@@ -10,12 +10,11 @@
     "seed": "node seeds/index.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "type": "git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.3"
   },
