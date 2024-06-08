@@ -55,11 +55,10 @@ router.put('/:id', async (req, res) => {
       where: {
         id: req.params.id,
       },
-      returning: true,
     });
-    res.status(200).json(updatedData);
+    res.status(200).json({"updated": updatedData, "updated info": req.body});
   } catch(err) {
-    res.status(500).json(err);
+    res.status(400).json(err);
   }
 });
 
